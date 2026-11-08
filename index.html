@@ -49,6 +49,7 @@ svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
 .history-row.active .history-title{color:var(--text)}
 .history-meta{font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .history-actions{display:flex;gap:2px;opacity:0;transition:opacity .16s}
+@media (max-width:900px){.history-actions{opacity:1}}
 .history-row:hover .history-actions,.history-row.active .history-actions{opacity:1}
 .icon-button{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;color:var(--muted);transition:background .16s,color .16s,transform .16s}
 .icon-button:hover{background:var(--hover);color:var(--text)}
